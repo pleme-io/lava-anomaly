@@ -539,6 +539,33 @@
           "uses_default_features": false,
           "optional": false,
           "target": "aarch64-linux-android"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.186",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(target_arch = \"aarch64\", target_os = \"linux\"))"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.186",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(target_arch = \"aarch64\", target_vendor = \"apple\"))"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.186",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(target_arch = \"loongarch64\", target_os = \"linux\"))"
         }
       ],
       "runtime_dependencies": [
@@ -550,6 +577,33 @@
           "uses_default_features": false,
           "optional": false,
           "target": "aarch64-linux-android"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.186",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(target_arch = \"aarch64\", target_os = \"linux\"))"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.186",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(target_arch = \"aarch64\", target_vendor = \"apple\"))"
+        },
+        {
+          "name": "libc",
+          "package_key": "libc-0.2.186",
+          "kind": "normal",
+          "features": [],
+          "uses_default_features": false,
+          "optional": false,
+          "target": "cfg(all(target_arch = \"loongarch64\", target_os = \"linux\"))"
         }
       ],
       "build_dependencies": [],
