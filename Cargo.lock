@@ -343,7 +343,7 @@ dependencies = [
 
 [[package]]
 name = "lava-anomaly"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "chrono",
  "indexmap",
@@ -357,7 +357,7 @@ dependencies = [
 [[package]]
 name = "lava-drift"
 version = "0.1.2"
-source = "git+https://github.com/pleme-io/lava-drift?branch=main#f1688d2d64ccb56093213527148f29a748050600"
+source = "git+https://github.com/pleme-io/lava-drift?branch=main#37f3943167e6523662e70e758aeeddbbc4a89607"
 dependencies = [
  "chrono",
  "indexmap",
