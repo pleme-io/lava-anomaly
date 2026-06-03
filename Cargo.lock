@@ -357,7 +357,7 @@ dependencies = [
 [[package]]
 name = "lava-drift"
 version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-drift?branch=main#2ed1a582ebafa62030d3971301c30eceb4508a7a"
+source = "git+https://github.com/pleme-io/lava-drift?branch=main#25846e460c2f4b4761d054a3897ebfa386c34cd3"
 dependencies = [
  "chrono",
  "indexmap",
@@ -369,8 +369,8 @@ dependencies = [
 
 [[package]]
 name = "lava-outcome-chain"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-outcome-chain?branch=main#fc1758354ac93df11d5e7ec8bc60a04c263280ea"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-outcome-chain?branch=main#d70747a11eb45dda222a03abc2b8a3ae9511b7ec"
 dependencies = [
  "blake3",
  "chrono",

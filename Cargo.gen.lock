@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "f5b1c35cfa61ac25b438e2ab15b724e95c5d54dfc4bcb5909f38d21c603919ba",
+  "cargo_lock_sha256": "8dd7b40d2749d600c4ade95e958dbcab603e8e19efaa57e423d5cadf041b4802",
   "target_resolves": {
     "base": {
       "arrayref-0.3.9": {
@@ -501,7 +501,7 @@
           },
           {
             "name": "lava_outcome_chain",
-            "package_key": "lava-outcome-chain-0.1.1",
+            "package_key": "lava-outcome-chain-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -573,7 +573,7 @@
           },
           {
             "name": "lava_outcome_chain",
-            "package_key": "lava-outcome-chain-0.1.1",
+            "package_key": "lava-outcome-chain-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -617,7 +617,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "lava-outcome-chain-0.1.1": {
+      "lava-outcome-chain-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "blake3",
@@ -2642,8 +2642,14 @@
     "lava-drift-0.1.1": {
       "edition": "2024"
     },
-    "lava-outcome-chain-0.1.1": {
-      "edition": "2024"
+    "lava-outcome-chain-0.1.2": {
+      "edition": "2024",
+      "binaries": [
+        {
+          "name": "lava-outcome-chain-keygen",
+          "path": "src/bin/keygen.rs"
+        }
+      ]
     },
     "libc-0.2.186": {
       "edition": "2021",
@@ -2756,8 +2762,8 @@
     }
   },
   "git_nar_sha256": {
-    "lava-drift-0.1.1": "sha256-Z0+Fv9QBiedEdLnewqZgeebV/atvJJiN/DdW43SaKBc=",
-    "lava-outcome-chain-0.1.1": "sha256-lE+AUXmzEGGq1XPbidrlqopOUY4KaLXtkEXpwdbpC7M="
+    "lava-drift-0.1.1": "sha256-Pxmogg9eBxDbP/B/ep6XIJrzjtPwzbqA2Lg1eN1cZ7s=",
+    "lava-outcome-chain-0.1.2": "sha256-VCAIKxaBOKawKqLsiIPyuHbRoHpdDcdLdyGE6vkehbk="
   },
   "flake_metadata": {}
 }
