@@ -356,8 +356,8 @@ dependencies = [
 
 [[package]]
 name = "lava-drift"
-version = "0.1.1"
-source = "git+https://github.com/pleme-io/lava-drift?branch=main#40d9da5b04eed0c66ae4900d8326de62255433a9"
+version = "0.1.2"
+source = "git+https://github.com/pleme-io/lava-drift?branch=main#f1688d2d64ccb56093213527148f29a748050600"
 dependencies = [
  "chrono",
  "indexmap",
