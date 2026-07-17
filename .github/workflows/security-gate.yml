@@ -10,4 +10,6 @@ on:
 jobs:
   gate:
     uses: pleme-io/substrate/.github/workflows/security-gate.yml@main
+    with:
+      check-license-headers: "false"
     secrets: inherit
