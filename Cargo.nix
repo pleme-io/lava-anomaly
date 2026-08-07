@@ -1139,7 +1139,7 @@ rec {
       };
       "lava-anomaly" = rec {
         crateName = "lava-anomaly";
-        version = "0.1.3";
+        version = "0.1.4";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         libName = "lava_anomaly";
@@ -1183,14 +1183,9 @@ rec {
       };
       "lava-drift" = rec {
         crateName = "lava-drift";
-        version = "0.1.2";
+        version = "0.1.3";
         edition = "2024";
-        workspace_member = null;
-        src = pkgs.fetchgit {
-          url = "https://github.com/pleme-io/lava-drift";
-          rev = "f1688d2d64ccb56093213527148f29a748050600";
-          sha256 = "1p3dxah5rh1z48ikvk47csi668r2hpa2cbiw5h3q0z3kbkwiq611";
-        };
+        sha256 = "0bsjipqfmrd89rwzbydkd0k6r9dq36b5nssvdzw115aygrsjhvnv";
         libName = "lava_drift";
         authors = [
           "pleme-io"
@@ -1231,12 +1226,7 @@ rec {
         version = "0.1.2";
         edition = "2024";
         crateBin = [];
-        workspace_member = null;
-        src = pkgs.fetchgit {
-          url = "https://github.com/pleme-io/lava-outcome-chain";
-          rev = "193b8e7f94a445c0653bce5e8f48b7477d3baeeb";
-          sha256 = "0kzhhlg8rp5i55dwbm69pfldndp5ibcynm9yw0dwdywhzg1fs7q3";
-        };
+        sha256 = "0vakn7y7laa00af3m75wiknfgyawma3w9cb26zc8il1spigkscyv";
         libName = "lava_outcome_chain";
         authors = [
           "pleme-io"
