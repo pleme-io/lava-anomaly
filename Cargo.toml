@@ -1,6 +1,6 @@
 [package]
 authors = ["pleme-io"]
-description = "lava-anomaly — typed AnomalyController surface for the lava-suite. LavaAnomaly { kind, severity, source, message } + RemediationPolicy { NoOp | Alert | AutoCorrect | RequireApproval | Escalate } + AnomalyRouter trait + EscalationLadder. Operationalizes theory/CONTINUOUS-SOLUTION-MACHINE.md anomaly routing for IaC drift, synth failures, apply failures, and policy violations."
+description = "lava-anomaly — typed AnomalyController surface for the lava-suite. LavaAnomaly { kind, severity, source, message } + RemediationPolicy { NoOp | Alert | AutoCorrect | RequireApproval | Escalate } + AnomalyRouter trait + EscalationLadder. Operationalizes anomaly routing for IaC drift, synth failures, apply failures, and policy violations."
 edition = "2024"
 license = "MIT"
 name = "lava-anomaly"

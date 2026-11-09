@@ -1,7 +1,6 @@
 //! lava-anomaly — typed AnomalyController surface for the lava-suite.
 //!
-//! Operationalizes theory/CONTINUOUS-SOLUTION-MACHINE.md anomaly
-//! routing for IaC drift / synth failures / apply failures / policy
+//! Operationalizes anomaly routing for IaC drift / synth failures / apply failures / policy
 //! violations.
 //!
 //! ## Shape

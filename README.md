@@ -1,8 +1,7 @@
 # lava-anomaly
 
 Typed AnomalyController surface for the lava-suite. L4 foundation.
-Operationalizes [theory/CONTINUOUS-SOLUTION-MACHINE.md](https://github.com/pleme-io/theory)
-anomaly routing for IaC drift / synth failures / apply failures /
+Operationalizes anomaly routing for IaC drift / synth failures / apply failures /
 policy violations.
 
 ## Shape
